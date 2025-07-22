@@ -3,6 +3,10 @@
 
 // PM> Scaffold-DbContext Data Source=.;Initial Catalog=TechTalk;Integrated Security=SSPI;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer
 
+
+//
+
+//dotnet ef dbcontext scaffold "Data Source=.;Initial Catalog=TechTalk;Integrated Security=SSPI;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer --data-annotations --table speakers --context AppDbContext --output-dir Entities --context -dir Data
 using EF08_ReverseEngineering;
 using System;
 
